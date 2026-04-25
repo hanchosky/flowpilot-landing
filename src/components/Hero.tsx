@@ -26,7 +26,7 @@ export default function Hero() {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <button className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 rounded-full transition-all transform hover:scale-105 font-bold text-lg shadow-lg hover:shadow-orange-600/50">
-                Prueba gratis
+                HOLA PRUEBA
               </button>
               <button className="border-2 border-orange-500/50 hover:border-orange-500 text-orange-400 hover:text-orange-300 px-8 py-4 rounded-full transition-all font-bold text-lg">
                 Ver demostración

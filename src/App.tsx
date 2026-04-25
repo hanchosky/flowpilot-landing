@@ -66,19 +66,21 @@ export default function App() {
               FlowPilot gestiona tus pedidos por WhatsApp y Web, sugiere adicionales automáticamente y se integra con tu cocina. Más ventas, cero errores.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-              <button className="bg-orange-600 hover:bg-orange-700 active:scale-95 touch-manipulation text-white px-10 py-5 rounded-full font-bold text-lg shadow-xl shadow-orange-600/30 transition-all md:hover:scale-105">
+              {/* Botón Principal: Colores originales (600 -> 700) + Nueva interacción de clic */}
+              <button className="bg-orange-600 hover:bg-orange-700 active:scale-90 touch-manipulation text-white px-10 py-5 rounded-full font-bold text-lg shadow-xl shadow-orange-600/30 transition-all cursor-pointer">
                 Prueba gratis
               </button>
-              <button className={`px-10 py-5 rounded-full font-bold text-lg transition-all border active:scale-95 touch-manipulation ${
+
+              {/* Botón Secundario: Colores originales + Nueva interacción de clic */}
+              <button className={`px-10 py-5 rounded-full font-bold text-lg transition-all border active:scale-90 touch-manipulation cursor-pointer ${
                 isDark 
                 ? 'bg-slate-900 border-slate-800 text-white hover:bg-slate-800' 
-                : 'bg-white border-slate-200 text-slate-900 hover:bg-slate-50 shadow-sm'
+                : 'bg-white border-slate-200 text-slate-900 hover:bg-slate-300 shadow-sm'
               }`}>
                 Ver demostración
               </button>
             </div>
           </div>
-
           {/* Imagen de la Plataforma con Efectos Hover/Active */}
           <div className="max-w-6xl mx-auto relative group px-2">
             <div className="absolute -inset-1 bg-gradient-to-r from-orange-600 to-orange-400 rounded-2xl blur opacity-20 group-hover:opacity-40 transition-opacity duration-700"></div>
