@@ -58,30 +58,19 @@ El proyecto se ejecutará en: http://localhost:5173/
 ├── package.json         # Dependencias y scripts
 └── tailwind.config.js   # Configuración de diseño (v4 auto-config)
 
-👨‍💻 Decisiones de Arquitectura y Estrategia de Negocio
-    Para garantizar un prototipo escalable, profesional y alineado con los objetivos de validación, se aplicaron las siguientes reglas:
+👨‍💻 Decisiones de Arquitectura y Estrategia de Negocio - Para garantizar un prototipo escalable, profesional y alineado con los objetivos de validación, se aplicaron las siguientes reglas:
 
-1. Enfoque en Validación de Interés (Estrategia): 
-    Se eligió el sector gastronómico como un "Vertical Slice" para demostrar cómo FlowPilot organiza "ideas, tareas y decisiones" de forma tangible. 
-    Esto permite a los stakeholders visualizar el impacto real de la IA en un flujo operativo complejo (ventas, pedidos y cocina).
+1. Enfoque en Validación de Interés (Estrategia): Se eligió el sector gastronómico como un "Vertical Slice" para demostrar cómo FlowPilot organiza "ideas, tareas y decisiones" de forma tangible. Esto permite a los stakeholders visualizar el impacto real de la IA en un flujo operativo complejo (ventas, pedidos y cocina).
 
-2. Gestión de Assets vía Vite: 
-    Se centralizaron los recursos visuales en la carpeta src/assets. 
-    Al contrario de la carpeta public, el uso de assets permite que Vite procese, optimice y genere hashes de contenido para los archivos durante el build, mejorando la gestión de caché en el navegador.
+2. Gestión de Assets vía Vite: Se centralizaron los recursos visuales en la carpeta src/assets. Al contrario de la carpeta public, el uso de assets permite que Vite procese, optimice y genere hashes de contenido para los archivos durante el build, mejorando la gestión de caché en el navegador.
 
-3. GPU Acceleration & Performance: 
-    Las animaciones de entrada utilizan translate3d y will-change. 
-    Esta técnica fuerza el renderizado mediante hardware (GPU), asegurando 60 FPS constantes y minimizando el impacto en el hilo principal del navegador, logrando un Largest Contentful Paint (LCP) excepcional.
+3. GPU Acceleration & Performance: Las animaciones de entrada utilizan translate3d y will-change. Esta técnica fuerza el renderizado mediante hardware (GPU), asegurando 60 FPS constantes y minimizando el impacto en el hilo principal del navegador, logrando un Largest Contentful Paint (LCP) excepcional.
 
-4. Resiliencia Táctica y UX Móvil: 
-    Se implementaron prefijos active: y clases de touch-manipulation. 
-    Esto garantiza que los usuarios en dispositivos móviles reciban feedback visual instantáneo al interactuar, compensando técnicamente la ausencia física de eventos hover.
+4. Resiliencia Táctica y UX Móvil: Se implementaron prefijos active: y clases de touch-manipulation. Esto garantiza que los usuarios en dispositivos móviles reciban feedback visual instantáneo al interactuar, compensando técnicamente la ausencia física de eventos hover.
 
-5. Arquitectura Zero Dependencies: 
-    Se evitó la sobrecarga de librerías de terceros para animaciones, confiando exclusivamente en el motor nativo de Tailwind CSS v4 para maximizar la velocidad de carga (LCP).
+5. Arquitectura Zero Dependencies: Se evitó la sobrecarga de librerías de terceros para animaciones, confiando exclusivamente en el motor nativo de Tailwind CSS v4 para maximizar la velocidad de carga (LCP).
 
-🤖 Uso de Herramientas de IA en el Desarrollo
-    Para acelerar la ejecución de este prototipo y mantener un estándar Senior de rapidez, se utilizaron herramientas de IA de la siguiente manera:
+🤖 Uso de Herramientas de IA en el Desarrollo - Para acelerar la ejecución de este prototipo y mantener un estándar Senior de rapidez, se utilizaron herramientas de IA de la siguiente manera:
 
 6. Brainstorming de Negocio: 
     Definición del "Vertical Slice" gastronómico para demostrar el valor de FlowPilot.
