@@ -5,7 +5,7 @@
 </p>
 
 ## 🌐 Enlaces del Proyecto
-- **Demo en Vivo (Vercel):** https://flowpilot-landing-3j9dx7f60-hanchoskys-projects.vercel.app 
+- **Demo en Vivo (Vercel):** https://flowpilot-landing-3j9dx7f60-hanchoskys-projects.vercel.app
 - **Repositorio:** https://github.com/hanchosky/flowpilot-landing
 ---
 
@@ -38,26 +38,24 @@ Sigue estos pasos para levantar el entorno de desarrollo en segundos:
 
 ### 1. Clonar el repositorio
 ```bash
-git clone https://github.com/hanchosky/flowpilot-landing.git
+git clone https://github.com/hanchosky/flowpilot-landing.git(https://github.com/hanchosky/flowpilot-landing.git)
 cd flowpilot-landing
-
 2. Instalación Limpia
+Bash
 npm install
-
-3. Lanzar el Sevidor
+3. Lanzar el Servidor
+Bash
 npm run dev
-
 El proyecto se ejecutará en: http://localhost:5173/
 
 📂 Estructura de Archivos Optimizada
-
+Plaintext
 ├── src/
 │   ├── assets/          # Recursos y multimedia (bot.png)
 │   ├── App.tsx          # Lógica central y diseño de la Landing
 │   └── index.css        # Configuración Global y Animaciones GPU
 ├── package.json         # Dependencias y scripts
 └── tailwind.config.js   # Configuración de diseño (v4 auto-config)
-
 👨‍💻 Decisiones de Arquitectura y Estrategia de Negocio
 Para garantizar un prototipo escalable, profesional y alineado con los objetivos de validación, se aplicaron las siguientes reglas:
 
@@ -74,33 +72,20 @@ Arquitectura Zero Dependencies: Se evitó la sobrecarga de librerías de tercero
 🤖 Uso de Herramientas de IA en el Desarrollo
 Para acelerar la ejecución de este prototipo y mantener un estándar Senior de rapidez, se utilizaron herramientas de IA de la siguiente manera:
 
-6. Brainstorming de Negocio: 
-    Definición del "Vertical Slice" gastronómico para demostrar el valor de FlowPilot.
+Brainstorming de Negocio: Definición del "Vertical Slice" gastronómico para demostrar el valor de FlowPilot.
 
-7. Optimización de Estilos: 
-    Generación de estructuras base de Tailwind CSS para prototipado rápido de layouts complejos.
+Optimización de Estilos: Generación de estructuras base de Tailwind CSS para prototipado rápido de layouts complejos.
 
-8. Refactorización de Código: 
-    Aseguramiento de mejores prácticas en hooks de React 19 y clases de Tailwind v4.
-
+Refactorización de Código: Aseguramiento de mejores prácticas en hooks de React 19 y clases de Tailwind v4.
 
 🚀 Próximos Pasos (Roadmap de Escalabilidad)
-    Si se dispusiera de más tiempo para la evolución del producto, las prioridades serían:
+Integración de IA en Tiempo Real: Backend con WebSockets para aprendizaje del chatbot en vivo.
 
-a- Integración de IA en Tiempo Real: 
-    Backend con WebSockets para aprendizaje del chatbot en vivo.
+Dashboard de Analítica: Gráficos dinámicos para visualizar el ROI generado por la IA.
 
-b- Dashboard de Analítica: 
-    Gráficos dinámicos para visualizar el ROI generado por la IA.
+Pruebas de Usuario (A/B Testing): Optimización de tasas de conversión en CTAs principales.
 
-c- Pruebas de Usuario (A/B Testing): 
-    Optimización de tasas de conversión en CTAs principales.
-
-d- Internacionalización (i18n): 
-    Adaptación multilingüe para escalabilidad global.
-
-
+Internacionalización (i18n): Adaptación multilingüe para escalabilidad global.
 
 ✉️ Contacto y Colaboración
-    Desarrollado por Héctor Hans Olave Trujillo.
-    Senior FullStack & Mobile Developer
+Desarrollado por Héctor Hans Olave Trujillo Senior FullStack & Mobile Developer
