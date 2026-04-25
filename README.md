@@ -4,6 +4,9 @@
   <img src="src/assets/bot.png" alt="FlowPilot Dashboard Preview" width="800" style="border-radius: 20px; border: 1px solid #333;">
 </p>
 
+## 🌐 Enlaces del Proyecto
+- **Demo en Vivo (Vercel):** [https://flowpilot-landing-3j9dx7f60-hanchoskys-projects.vercel.app](https://flowpilot-landing-3j9dx7f60-hanchoskys-projects.vercel.app/)
+- **Repositorio:** [https://github.com/hanchosky/flowpilot-landing](https://github.com/hanchosky/flowpilot-landing)
 ---
 
 ## ⚡ El Futuro de la Gastronomía Automatizada
