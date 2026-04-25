@@ -35,7 +35,7 @@ Sigue estos pasos para levantar el entorno de desarrollo en segundos:
 
 ### 1. Clonar el repositorio
 ```bash
-git clone [https://github.com/tu-usuario/flowpilot-landing.git](https://github.com/hanchosky/flowpilot-landing.git)
+git clone [https://github.com/hanchosky/flowpilot-landing.git]
 cd flowpilot-landing
 
 2. Instalación Limpia
