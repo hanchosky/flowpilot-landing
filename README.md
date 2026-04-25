@@ -38,7 +38,7 @@ Sigue estos pasos para levantar el entorno de desarrollo en segundos:
 
 ### 1. Clonar el repositorio
 ```bash
-git clone https://github.com/hanchosky/flowpilot-landing.git(https://github.com/hanchosky/flowpilot-landing.git)
+git clone https://github.com/hanchosky/flowpilot-landing.git
 cd flowpilot-landing
 2. Instalación Limpia
 Bash
@@ -56,6 +56,7 @@ Plaintext
 │   └── index.css        # Configuración Global y Animaciones GPU
 ├── package.json         # Dependencias y scripts
 └── tailwind.config.js   # Configuración de diseño (v4 auto-config)
+
 👨‍💻 Decisiones de Arquitectura y Estrategia de Negocio
 Para garantizar un prototipo escalable, profesional y alineado con los objetivos de validación, se aplicaron las siguientes reglas:
 
