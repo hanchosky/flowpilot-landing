@@ -77,7 +77,7 @@ export default function App() {
                 ? 'bg-slate-900 border-slate-800 text-white hover:bg-slate-800' 
                 : 'bg-white border-slate-200 text-slate-900 hover:bg-slate-300 shadow-sm'
               }`}>
-                Ver demostración
+                Ver demostración 
               </button>
             </div>
           </div>
