@@ -5,8 +5,8 @@
 </p>
 
 ## 🌐 Enlaces del Proyecto
-- **Demo en Vivo (Vercel):** [https://flowpilot-landing-3j9dx7f60-hanchoskys-projects.vercel.app](https://flowpilot-landing-3j9dx7f60-hanchoskys-projects.vercel.app/)
-- **Repositorio:** [https://github.com/hanchosky/flowpilot-landing](https://github.com/hanchosky/flowpilot-landing)
+- **Demo en Vivo (Vercel):** https://flowpilot-landing-3j9dx7f60-hanchoskys-projects.vercel.app 
+- **Repositorio:** https://github.com/hanchosky/flowpilot-landing
 ---
 
 ## ⚡ El Futuro de la Gastronomía Automatizada
@@ -38,7 +38,7 @@ Sigue estos pasos para levantar el entorno de desarrollo en segundos:
 
 ### 1. Clonar el repositorio
 ```bash
-git clone [https://github.com/hanchosky/flowpilot-landing.git]
+git clone https://github.com/hanchosky/flowpilot-landing.git
 cd flowpilot-landing
 
 2. Instalación Limpia
