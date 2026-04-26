@@ -22,12 +22,12 @@
 
 ## 🛠️ Stack Tecnológico de Última Generación
 
-| Tecnología       | Rol en el Proyecto                                |
-|------------------|----------------------------------------------------|
-| **React 19**     | Motor de la interfaz con Hooks modernos           |
-| **Vite**         | Tooling de alto rendimiento para el bundling      |
+| Tecnología | Rol en el Proyecto |
+|------------|--------------------|
+| **React 19** | Motor de la interfaz con Hooks modernos |
+| **Vite** | Tooling de alto rendimiento para el bundling |
 | **Tailwind CSS v4** | Estilizado atómico con últimas capacidades de diseño |
-| **Lucide Icons** | Iconografía minimalista y consistente             |
+| **Lucide Icons** | Iconografía minimalista y consistente |
 
 ---
 
@@ -41,13 +41,17 @@ git clone https://github.com/hanchosky/flowpilot-landing.git
 cd flowpilot-landing
 
 2. Instalación Limpia
+bash
 npm install
 
 3. Lanzar el Servidor
+bash
 npm run dev
 
 El proyecto se ejecutará en: http://localhost:5173/
 
+📂 Estructura de Archivos Optimizada
+text
 ├── src/
 │   ├── assets/          # Recursos y multimedia (bot.png)
 │   ├── App.tsx          # Lógica central y diseño de la Landing
